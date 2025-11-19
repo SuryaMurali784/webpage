@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Demo Web Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Surya's Site</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h2>Welcome to my demo site</h2>
+        <p>A clean static page ready to deploy on GitHub Pages.</p>
+        <button id="cta">Say hi 👋</button>
+      </div>
+    </section>
+
+    <section id="features" class="features container">
+      <article>
+        <h3>Fast</h3>
+        <p>Simple static site — super fast and easy to host.</p>
+      </article>
+      <article>
+        <h3>Responsive</h3>
+        <p>Looks good on mobile and desktop.</p>
+      </article>
+      <article>
+        <h3>Easy Deploy</h3>
+        <p>One push to GitHub and the site is live.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h3>Contact</h3>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" rows="4" placeholder="Message (optional)"></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="formStatus" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Surya — Built with ♥</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
