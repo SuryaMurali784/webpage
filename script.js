@@ -1,7 +1,7 @@
 // Small interactive bits
 document.getElementById('year').textContent = new Date().getFullYear();
 
-document.getElementById('cta').addEventListener('click', () => {
+document.getElementById('cta').addEventListener('click', () =>{
   alert('Hey! Thanks for clicking — ready to deploy? 🚀');
 });
 
